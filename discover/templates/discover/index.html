@@ -1,5 +1,76 @@
 {% extends 'discover/base.html' %}
 
 {% block content %}
-    <h1>It's Movie Time!</h1>
+    {% load static %}
+    <div id="main">
+        <div id="search-results">
+            <div class="movie card"></div>
+        </div>
+        <div id="search">
+            <div id="search-inputs" class="card">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                        <img class="search-icon" src="{% static 'discover/images/search-icon-yellow.png' %}"/>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Title of Movie" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">
+                            <img class="search-icon" src="{% static 'discover/images/year-icon.png' %}"/>
+                        </span>
+                      </div>
+                  <input type="text" class="form-control" placeholder="Year of Release" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+            </div>
+            <div id="search-filters" class="card">
+                <h6>Movie</h6>
+                <p id="filter-genre"><i class="fa fas fa-minus"></i> Select genre(s) </p>
+                <div id="genres">
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Action</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Adventure</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Animation</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Comedy</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Crime Film</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Documentary</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Drama</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Exotic</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Family</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Fantasy</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">History</label>
+                    </div>
+                    <div class="input-group">
+                        <label><input type="checkbox" name="checkbox" value="value">Horror</label>
+                    </div>
+                </div>
+                <p id="filter-vote"><i class="fa fas fa-plus"></i> Select min. vote </p>
+                <p id="filter-lang"><i class="fa fas fa-plus"></i> Select language </p>
+
+            </div>
+        </div>
+    </div>
 {% endblock %}

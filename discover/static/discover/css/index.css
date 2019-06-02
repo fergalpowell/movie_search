@@ -1,0 +1,74 @@
+#main{
+    width: calc(100% - 200px);
+    height: 100%;
+    margin-left: 200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.card{
+    box-shadow: none;
+}
+
+#search-results{
+    position: relative;
+    width: 70%;
+}
+
+.movie{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+#search{
+    position: relative;
+    width: 27.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#search-inputs{
+    padding: 15px;
+    width: 100%;
+    height: 20%;
+}
+
+#search-filters{
+    padding: 15px;
+    width: 100%;
+    height: 77.5%;
+}
+
+.search-icon{
+    width: 80%;
+}
+
+.form-control, .form-control:focus{
+    font-weight: bold;
+    color: #e1e500;
+    background-image: linear-gradient(0deg,#e1e500 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+    background-size: 0 100%,100% 100%;
+}
+
+#genres{
+    display: flex;
+    flex-direction: column;
+    transition: 3s;
+}
+
+#genres label input{
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+#genres label{
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+
