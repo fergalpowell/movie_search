@@ -95,7 +95,7 @@ body{
     padding-right: 15px;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 700px) {
     #my-nav{
         width: 0;
         transition: .5s;
@@ -114,14 +114,14 @@ body{
     }
 }
 
-@media only screen and (min-width: 451px) {
+@media only screen and (min-width: 701px) {
     #my-nav{
         width: 250px;
         transition: .5s;
     }
 
     #close-btn{
-        display: none; !important;
+        display: none;
     }
 }
 
