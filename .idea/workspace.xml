@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dafdda0-d5c2-4cc8-993d-d12418588baf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discover/static/discover/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/discover/static/discover/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discover/static/discover/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/discover/static/discover/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discover/static/discover/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/discover/static/discover/js/index.js" afterDir="false" />
@@ -20,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie_search/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
+            <state relative-caret-position="413">
               <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
             </state>
           </provider>
@@ -41,10 +40,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/discover/templates/discover/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="100">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
               <folding>
+                <element signature="e#1381#1388#1#HTML" expanded="true" />
+                <element signature="e#1428#1434#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#h4#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2204#2210#1#HTML" expanded="true" />
+                <element signature="e#2240#2246#1#HTML" expanded="true" />
+                <element signature="e#2276#2282#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,37 +58,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/discover/templates/discover/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="61" />
-              <folding>
-                <element signature="e#724#730#0#HTML" expanded="true" />
-                <element signature="e#731#737#0#HTML" expanded="true" />
-                <element signature="e#822#828#0#HTML" expanded="true" />
-                <element signature="e#829#835#0#HTML" expanded="true" />
-                <element signature="e#1316#3809#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discover/static/discover/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="75">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/discover/static/discover/js/index.js">
+        <entry file="file://$PROJECT_DIR$/discover/static/discover/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-              <folding>
-                <element signature="e#6#12#0" expanded="true" />
-                <element signature="e#13#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="148" column="22" selection-start-line="148" selection-start-column="22" selection-end-line="148" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -91,8 +76,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/discover/static/discover/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="331">
+              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/discover/static/discover/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <folding>
+                <element signature="e#6#12#0" expanded="true" />
+                <element signature="e#13#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,11 +143,11 @@
         <option value="$PROJECT_DIR$/discover/views.py" />
         <option value="$PROJECT_DIR$/discover/static/css/base.css" />
         <option value="$PROJECT_DIR$/discover/static/discover/index.css" />
+        <option value="$PROJECT_DIR$/discover/templates/discover/base.html" />
         <option value="$PROJECT_DIR$/discover/templates/discover/index.html" />
         <option value="$PROJECT_DIR$/discover/static/discover/css/base.css" />
-        <option value="$PROJECT_DIR$/discover/static/discover/css/index.css" />
-        <option value="$PROJECT_DIR$/discover/templates/discover/base.html" />
         <option value="$PROJECT_DIR$/discover/static/discover/js/index.js" />
+        <option value="$PROJECT_DIR$/discover/static/discover/css/index.css" />
       </list>
     </option>
   </component>
@@ -275,12 +273,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559468080066</updated>
       <workItem from="1559468102345" duration="5409000" />
-      <workItem from="1559475157607" duration="16892000" />
+      <workItem from="1559475157607" duration="25584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22301000" />
+    <option name="totallyTimeSpent" value="30993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -315,7 +313,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/movie_search/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="413">
           <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
@@ -350,52 +348,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/discover/static/discover/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/discover/templates/discover/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="100">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
+            <element signature="e#1381#1388#1#HTML" expanded="true" />
+            <element signature="e#1428#1434#0#HTML" expanded="true" />
             <element signature="n#style#0;n#img#0;n#h4#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2204#2210#1#HTML" expanded="true" />
+            <element signature="e#2240#2246#1#HTML" expanded="true" />
+            <element signature="e#2276#2282#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/discover/templates/discover/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="75">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discover/static/discover/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discover/static/discover/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
           <folding>
-            <element signature="e#724#730#0#HTML" expanded="true" />
-            <element signature="e#731#737#0#HTML" expanded="true" />
-            <element signature="e#822#828#0#HTML" expanded="true" />
-            <element signature="e#829#835#0#HTML" expanded="true" />
-            <element signature="e#1316#3809#0#HTML" />
+            <element signature="e#6#12#0" expanded="true" />
+            <element signature="e#13#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/discover/static/discover/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discover/static/discover/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-          <folding>
-            <element signature="e#6#12#0" expanded="true" />
-            <element signature="e#13#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="148" column="22" selection-start-line="148" selection-start-column="22" selection-end-line="148" selection-end-column="22" />
         </state>
       </provider>
     </entry>

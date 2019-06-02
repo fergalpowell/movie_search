@@ -2,6 +2,7 @@ let api_key = "c315c16c11dbc03308d8efd355eeb5a9";
 let genres;
 let example = document.getElementById("movie-example");
 let movie_template = example.cloneNode(true);
+let request;
 
 $.ajax({
         type: 'get',
@@ -10,7 +11,6 @@ $.ajax({
             "Accept": "application/json"
         },
         success: function (response) {
-            console.log(response);
             genres = response.genres;
         },
         error: function(e){
@@ -31,17 +31,23 @@ document.getElementById("filter-genre").addEventListener("click", function(){
     }
 });
 
-$("#search-title").on("input", function(){
-    let request = null;
+$("#search-title, #mobile-search-title").on("input", function(){
     document.getElementById("search-results").innerHTML = "";
     if(this.value !== ""){
-        request = $.ajax({
+        GetMovies(this.value);
+    }
+});
+
+function GetMovies(input){
+    request = null;
+    request = $.ajax({
             type: 'get',
-            url: 'https://api.themoviedb.org/3/search/movie?api_key=' + api_key + '&query=' + this.value,
+            url: 'https://api.themoviedb.org/3/search/movie?api_key=' + api_key + '&query=' + input,
             headers: {
                 "Accept": "application/json"
             },
             success: function (response) {
+                console.log(response);
                 DisplayMovies(response);
             },
             error: function(e){
@@ -50,9 +56,15 @@ $("#search-title").on("input", function(){
             },
             timeout: 10000
     });
-    }
+}
+
+$(".hamburger-icon").on("click", function(){
+       $("#my-nav").css("width", 250);
 });
 
+$("#close-btn").on("click", function(){
+       $("#my-nav").css("width", 0);
+});
 
 function DisplayMovies(data){
     for (let i = 0; i < data.results.length; i++){

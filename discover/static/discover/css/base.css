@@ -12,6 +12,9 @@ body{
     padding-right: 0;
     top: 0;
     left: 0;
+    transition: .5s;
+    overflow-x: hidden;
+    z-index: 2;
 }
 
 .navbar{
@@ -22,10 +25,11 @@ body{
     justify-content: start;
 }
 
-#my-nav div{
+#my-nav a{
     display: inline-block;
     padding: 15px 30px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .enabled{
@@ -33,12 +37,91 @@ body{
 }
 
 
-
-#my-nav div p{
+#my-nav a p{
     color: #cccccc;
     font-weight: lighter;
 }
 
 .nav-icon{
-    float: right;
+    position: absolute;
+    right: 25px;
 }
+
+.hamburger-icon {
+    margin: 0;
+    padding: 20px 10px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hamburger-icon span {
+    width: 30px;
+    background-color: #373737;
+    height: 4px;
+    display: block;
+    margin-bottom: 6px;
+    border-radius: 2px;
+}
+
+.hamburger-icon span:last-child {
+    margin-bottom:0px;
+}
+
+#top-nav{
+    background-color: #f5f5f5;
+    width: 100%;
+    flex-direction: row;
+    vertical-align: middle;
+    z-index: 1;
+    display: none;
+}
+
+#menu-text{
+    font-size: 1.1em;
+    margin-left: 30px;
+}
+
+#close-btn {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px;
+    text-align: right;
+    font-size: 36px;
+    color: #f1f1f1;
+    display: none;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 450px) {
+    #my-nav{
+        width: 0;
+        transition: .5s;
+    }
+
+    #top-nav{
+        display: block;
+    }
+
+    #my-nav a{
+        transition: .3s;
+    }
+
+    #close-btn{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 451px) {
+    #my-nav{
+        width: 250px;
+        transition: .5s;
+    }
+
+    #close-btn{
+        display: none; !important;
+    }
+}
+

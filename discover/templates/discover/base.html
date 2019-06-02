@@ -17,20 +17,30 @@
 </head>
 <body>
     <nav id="my-nav" class="navbar">
-        <div><h4>Fergal Powell<img style="margin-top: 5px;" class="nav-icon" src="{% static 'discover/images/arrow-icon.png' %}"/></h4></div>
-        <div class="enabled"><h5>Discover<img class="nav-icon" src="{% static 'discover/images/search-icon-white.png' %}"/></h5></div>
-        <div>
+        <div id="close-btn">&times;</div>
+        <a id="profile"><h4>Fergal&nbsp;Powell<img style="margin-top: 5px;" class="nav-icon" src="{% static 'discover/images/arrow-icon.png' %}"/></h4></a>
+        <a id="discover" class="enabled"><h5>Discover<img class="nav-icon" src="{% static 'discover/images/search-icon-white.png' %}"/></h5></a>
+        <a id="watched">
             <h5>Watched</h5>
             <hr style="border: .5px solid #cccccc;" />
             <p>Movies</p>
             <p>TV Shows</p>
-        </div>
-        <div>
+        </a>
+        <a id="saved">
             <h5>Saved</h5>
             <hr style="border: .5px solid #cccccc;" />
             <p>Movies</p>
             <p>TV Shows</p>
-        </div>
+        </a>
+    </nav>
+    <nav id="top-nav" class="navbar">
+        <span style="font-size:30px;cursor:pointer; padding-left: 10px;">
+            <label class="hamburger-icon">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+            </label><span id="menu-text">Discover</span>
+        </span>
     </nav>
     {% block content %}
     {% endblock %}

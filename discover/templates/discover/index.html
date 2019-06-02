@@ -3,6 +3,14 @@
 {% block content %}
     {% load static %}
     <div id="main" xmlns="http://www.w3.org/1999/html">
+        <div id="mobile-search" class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="mobile-title-icon">
+                    <img class="search-icon" src="{% static 'discover/images/search-icon-yellow.png' %}"/>
+                </span>
+            </div>
+            <input id="mobile-search-title" type="text" class="form-control" placeholder="Title of Movie">
+        </div>
         <div id="search-results">
             <div id="movie-example" class="movie card">
                 <div class="poster-container">
