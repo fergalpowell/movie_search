@@ -1,0 +1,43 @@
+body{
+    background-color: #f5f5f5;
+}
+
+#my-nav{
+    background-color: #001f3b;
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    color: #FFFFFF;
+    padding-left: 0;
+    padding-right: 0;
+    top: 0;
+    left: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#my-nav div{
+    padding: 15px 30px;
+    width: 100%;
+}
+
+.enabled{
+    background-color: #c8ef00;
+}
+
+
+
+#my-nav div p{
+    color: #cccccc;
+    font-weight: lighter;
+}
+
+.nav-icon{
+    float: right;
+}
