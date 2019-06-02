@@ -2,28 +2,53 @@
 
 {% block content %}
     {% load static %}
-    <div id="main">
+    <div id="main" xmlns="http://www.w3.org/1999/html">
         <div id="search-results">
-            <div class="movie card"></div>
+            <div id="movie-example" class="movie card">
+                <div class="poster-container">
+                    <img src="http://image.tmdb.org/t/p/w185//nBNZadXqJSdt05SHLqgT0HuC5Gm.jpg"/>
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h3>Interstellar</h3>
+                    </div>
+                    <div class="rating">
+                        <span>7.5</span>
+                    </div>
+                    <div class="categories">
+                        <span>Action</span>
+                        <span>&nbsp;|&nbsp;</span>
+                        <span>Adventure</span>
+                        <span>&nbsp;|&nbsp;</span>
+                        <span>Comedy</span>
+                    </div>
+                    <div class="description">
+                        <span>Superbad is a 2007 American coming-of-age teen comedy film directed by Greg Mottola and produced by Judd Apatow. The film stars Jonah Hill and Michael Cera as Seth and Evan, two teenagers about to graduate high school.</span>
+                    </div>
+                    <div class="release-date">
+                        <span>2017-05-06</span>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="search">
             <div id="search-inputs" class="card">
                 <div class="input-group mb-3">
                   <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">
+                    <span class="input-group-text" id="title-icon">
                         <img class="search-icon" src="{% static 'discover/images/search-icon-yellow.png' %}"/>
                     </span>
                   </div>
-                  <input type="text" class="form-control" placeholder="Title of Movie" aria-label="Username" aria-describedby="basic-addon1">
+                  <input id="search-title" type="text" class="form-control" placeholder="Title of Movie">
                 </div>
 
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">
+                        <span class="input-group-text" id="year-icon">
                             <img class="search-icon" src="{% static 'discover/images/year-icon.png' %}"/>
                         </span>
                       </div>
-                  <input type="text" class="form-control" placeholder="Year of Release" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <input id="search-year" type="text" class="form-control" placeholder="Year of Release">
                 </div>
             </div>
             <div id="search-filters" class="card">

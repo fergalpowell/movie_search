@@ -1,7 +1,7 @@
 #main{
-    width: calc(100% - 200px);
+    width: calc(100% - 250px);
     height: 100%;
-    margin-left: 200px;
+    margin-left: 250px;
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -11,6 +11,7 @@
 
 .card{
     box-shadow: none;
+    margin-bottom: 20px;
 }
 
 #search-results{
@@ -19,9 +20,12 @@
 }
 
 .movie{
+    padding: 20px;
     position: relative;
     width: 100%;
-    height: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 #search{
@@ -33,12 +37,14 @@
 }
 
 #search-inputs{
+    position: relative;
     padding: 15px;
     width: 100%;
     height: 20%;
 }
 
 #search-filters{
+    position: relative;
     padding: 15px;
     width: 100%;
     height: 77.5%;
@@ -49,16 +55,13 @@
 }
 
 .form-control, .form-control:focus{
-    font-weight: bold;
     color: #e1e500;
     background-image: linear-gradient(0deg,#e1e500 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
-    background-size: 0 100%,100% 100%;
 }
 
 #genres{
     display: flex;
     flex-direction: column;
-    transition: 3s;
 }
 
 #genres label input{
@@ -69,6 +72,55 @@
 #genres label{
     margin-bottom: 10px;
     font-weight: lighter;
+}
+
+.poster-container{
+    width: 25%;
+}
+
+.poster-container img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.info{
+    width: 75%;
+    margin-left: 20px;
+}
+
+.title{
+    width: 90%;
+    float: left;
+}
+
+.rating{
+    width: 28px;
+    float: right;
+    text-align: center;
+    background-color: #e1e500;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.categories{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #e1e500;
+    font-size: .8rem;
+}
+
+.description{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.release-date{
+    color: #e1e500;
+    font-weight: lighter;
+    font-size: .8rem;
+    bottom: 0;
+    left: 0;
 }
 
 

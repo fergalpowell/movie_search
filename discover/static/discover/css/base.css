@@ -4,8 +4,8 @@ body{
 
 #my-nav{
     background-color: #001f3b;
-    position: absolute;
-    width: 200px;
+    position: fixed;
+    width: 250px;
     height: 100%;
     color: #FFFFFF;
     padding-left: 0;
